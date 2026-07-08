@@ -25,7 +25,7 @@ Customer Email : customer@gearup.com   | Password: Customer@1234
 | Resource | Link |
 |----------|------|
 | **Live API** | `https://gearup-backend.onrender.com` |
-| **API Docs** | [Postman Collection](https://documenter.getpostman.com/view/your-collection-id) |
+| **API Docs** | [Postman Collection (Local JSON)](./gearup.postman_collection.json) |
 | **GitHub Repo** | [github.com/your-username/gearup-backend](https://github.com) |
 
 ---
