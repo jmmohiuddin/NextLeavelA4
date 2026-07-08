@@ -24,9 +24,9 @@ Customer Email : customer@gearup.com   | Password: Customer@1234
 
 | Resource | Link |
 |----------|------|
-| **Live API** | `https://gearup-backend.onrender.com` |
+| **Live API** | `https://gearup-backend-eta.vercel.app` |
 | **API Docs** | [Postman Collection (Local JSON)](./gearup.postman_collection.json) |
-| **GitHub Repo** | [github.com/your-username/gearup-backend](https://github.com) |
+| **GitHub Repo** | `https://github.com/jmmohiuddin/NextLeavelA4` |
 
 ---
 
