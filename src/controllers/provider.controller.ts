@@ -65,7 +65,7 @@ export const updateGear = async (
   next: NextFunction
 ): Promise<void> => {
   try {
-    const { id } = req.params;
+    const id = req.params.id as string;
     const providerId = req.user!.userId;
 
     const gear = await prisma.gearItem.findUnique({ where: { id } });
@@ -133,7 +133,7 @@ export const deleteGear = async (
   next: NextFunction
 ): Promise<void> => {
   try {
-    const { id } = req.params;
+    const id = req.params.id as string;
     const providerId = req.user!.userId;
 
     const gear = await prisma.gearItem.findUnique({ where: { id } });
@@ -222,7 +222,7 @@ export const updateOrderStatus = async (
   next: NextFunction
 ): Promise<void> => {
   try {
-    const { id } = req.params;
+    const id = req.params.id as string;
     const { status } = req.body;
     const providerId = req.user!.userId;
 

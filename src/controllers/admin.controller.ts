@@ -74,7 +74,7 @@ export const updateUserStatus = async (
   next: NextFunction
 ): Promise<void> => {
   try {
-    const { id } = req.params;
+    const id = req.params.id as string;
     const { status } = req.body;
 
     if (!status || !["ACTIVE", "SUSPENDED"].includes(status as string)) {

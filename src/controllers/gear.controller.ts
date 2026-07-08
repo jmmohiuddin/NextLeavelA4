@@ -97,7 +97,7 @@ export const getGearById = async (
   next: NextFunction
 ): Promise<void> => {
   try {
-    const { id } = req.params;
+    const id = req.params.id as string;
 
     const gear = await prisma.gearItem.findUnique({
       where: { id },

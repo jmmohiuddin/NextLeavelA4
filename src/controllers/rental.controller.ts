@@ -178,7 +178,7 @@ export const getRentalById = async (
   next: NextFunction
 ): Promise<void> => {
   try {
-    const { id } = req.params;
+    const id = req.params.id as string;
     const userId = req.user!.userId;
     const userRole = req.user!.role;
 
